@@ -1,8 +1,0 @@
--------------------------------------------------------------------------------
-Test set: ru.yandex.practicum.OrdersTest
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 5.019 s <<< FAILURE! - in ru.yandex.practicum.OrdersTest
-getOrders(ru.yandex.practicum.OrdersTest)  Time elapsed: 5.016 s  <<< ERROR!
-java.net.SocketTimeoutException: Read timed out
-	at ru.yandex.practicum.OrdersTest.getOrders(OrdersTest.java:18)
-
