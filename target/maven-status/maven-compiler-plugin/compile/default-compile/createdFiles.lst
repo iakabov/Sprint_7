@@ -1,0 +1,16 @@
+ru\yandex\practicum\service\CourierGenerator.class
+ru\yandex\practicum\model\courier\Courier$CourierBuilder.class
+ru\yandex\practicum\model\courier\courierForAuth\CourierForAuth.class
+ru\yandex\practicum\model\courier\courierForAuth\CourierForAuthWithoutPassword.class
+ru\yandex\practicum\model\courier\CourierWithoutLogin.class
+ru\yandex\practicum\client\courier\CourierClient.class
+ru\yandex\practicum\constant\ScooterColorUtils.class
+ru\yandex\practicum\client\order\OrderClient.class
+ru\yandex\practicum\model\courier\courierForAuth\CourierForAuth$CourierForAuthBuilder.class
+ru\yandex\practicum\model\order\Order.class
+ru\yandex\practicum\model\courier\courierForAuth\CourierForAuthWithoutLogin.class
+ru\yandex\practicum\model\courier\CourierWithoutPassword.class
+ru\yandex\practicum\service\OrderGenerator.class
+ru\yandex\practicum\client\Client.class
+ru\yandex\practicum\model\order\Order$OrderBuilder.class
+ru\yandex\practicum\model\courier\Courier.class
