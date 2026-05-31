@@ -2,4 +2,3 @@
 /shelf/
 .idea/
 target/*
-!target/allure-results/
