@@ -58,8 +58,7 @@ public class LoginTest extends BaseTest {
 
         Response response = courierClient.login(courierForAuth);
 
-        response.then().statusCode(HttpStatus.SC_GATEWAY_TIMEOUT);
-//                .and().body(FIELD_MESSAGE, equalTo(MESSAGE_NO_ENOUGH_DATA)); должна быть ошибка 400, но возвращается 509, даже через постман
+        response.then().statusCode(HttpStatus.SC_BAD_REQUEST);
     }
 
     @Test
@@ -80,8 +79,7 @@ public class LoginTest extends BaseTest {
 
         Response response = courierClient.login(courierForAuthWithPasswordNull);
 
-        response.then().statusCode(HttpStatus.SC_GATEWAY_TIMEOUT);
-//                .and().body(FIELD_MESSAGE, equalTo(MESSAGE_NO_ENOUGH_DATA)); должна быть ошибка 400, но возвращается 509, даже через постман
+        response.then().statusCode(HttpStatus.SC_BAD_REQUEST);
     }
 
     @Test
